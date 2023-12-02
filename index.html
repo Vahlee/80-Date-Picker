@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Picker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@700&family=Cormorant+Garamond:wght@300&family=Gabarito&family=Lobster&family=Nosifer&family=Open+Sans:wght@300&family=Playpen+Sans:wght@200&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@0,500;1,900&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <style>
+       body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: orange;
+        font-size: 2rem;
+       }
+       .container {
+       background-color:white;
+       padding: 100px;
+       font-family: 'Roboto Slab', serif;
+       }
+       .bold {
+        font-weight: bolder;
+        font-size: 3rem;
+        color:black;
+        font-family: 'Roboto', sans-serif;
+       }
+       p {
+        text-align: center;
+        color:grey;
+       }
+       @media (max-width: 767px) {
+        p {
+          font-size: 10px;
+        }
+        .bold {
+          font-size: 15px;
+        }
+        .container {
+          padding:100px;
+        }
+       }
+
+    </style>
+</head>
+<body>
+   <div class="container">
+     <p>16 Dec 1991</p>
+     <div class="date"><p class="bold">17 Dec 1991</p></div>
+     <p>18 Dec 1991</p>
+   </div>
+</body>
+</html>
